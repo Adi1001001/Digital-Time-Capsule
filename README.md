@@ -68,7 +68,7 @@ Second, download the project files from GitHub.
 ### Windows (Command Prompt / PowerShell)
 
 ```sh
-git clone https://github.com/your-username/DigitalTimeCapsule.git
+git clone https://github.com/Adi1001001/DigitalTimeCapsule.git
 ```
 
 ```sh
@@ -78,7 +78,7 @@ cd DigitalTimeCapsule
 ### macOS & Linux (Terminal)
 
 ```sh
-git clone https://github.com/your-username/DigitalTimeCapsule.git
+git clone https://github.com/Adi1001001/DigitalTimeCapsule.git
 ```
 ```sh
 cd DigitalTimeCapsule
@@ -170,6 +170,7 @@ If using **Task Scheduler (Windows) or Cron (Linux/macOS)** for automatic startu
 ## 🎉 You're All Set!
 
 Now your Digital Time Capsule should work seamlessly. Enjoy! 🚀
+In order to use it, run the digital_time_capsule.py script.
 
 If you have any errors or improvements or bugs I have to fix, please email digitaltimecapsule0@gmail.com. This will help me a ton so that I can improve this app.
 Cheers, Jan 31st 2025
