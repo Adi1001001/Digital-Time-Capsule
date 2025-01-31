@@ -1,0 +1,4 @@
+customtkinter
+tkcalendar
+Pillow
+validate_email_address
