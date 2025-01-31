@@ -7,6 +7,8 @@ A Python application that allows users to store memories, set reminders, and rec
 - A system tray application for background notifications.
 - Automatic task scheduling using Task Scheduler (Windows) or Crontab (Linux/Mac).
 
+Quick word: Pin the app to start or taskbar for easy access.
+
 # 📌 Digital Time Capsule - Installation Guide
 
 ## 🖥️ System Requirements
@@ -127,10 +129,10 @@ If using **Task Scheduler (Windows) or Cron (Linux/macOS)** for automatic startu
 
 ### 🏁 Windows (Task Scheduler)
 
-1. Open **Task Scheduler** (`Win + R`, type `taskschd.msc`, press Enter).
+1. Open **Task Scheduler**.
 2. Click **Create Basic Task**.
 3. Set a name (e.g., "Digital Time Capsule Reminder").
-4. Under **Trigger**, select "Daily" or "At startup".
+4. Under **Trigger**, select "Daily".
 5. Under **Action**, select "Start a program".
 6. Browse for `python.exe`.
 7. In **Arguments**, enter:
