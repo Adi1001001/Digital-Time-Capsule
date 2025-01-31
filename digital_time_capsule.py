@@ -61,53 +61,53 @@ window.resizable(True, True) # allowing the window to be resizable
 script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the directory of the script
 
 # icons
-image_path = os.path.join(script_dir, "Assets", "delete.png")
-delete_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "delete.png")
+delete_button_image = Image.open(icon_image_path)
 delete_button_image.thumbnail((50, 50))  # Resize for preview
 delete_button_image_tk = ImageTk.PhotoImage(delete_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "delete.png")
-small_delete_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "delete.png")
+small_delete_button_image = Image.open(icon_image_path)
 small_delete_button_image.thumbnail((30, 30))
 small_delete_button_image_tk = ImageTk.PhotoImage(small_delete_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "on-button.png")
-on_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "on-button.png")
+on_button_image = Image.open(icon_image_path)
 on_button_image.thumbnail((30, 30))  # Resize for preview
 on_button_image_tk = ImageTk.PhotoImage(on_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "off-button.png")
-off_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "off-button.png")
+off_button_image = Image.open(icon_image_path)
 off_button_image.thumbnail((30, 30))  # Resize for preview
 off_button_image_tk = ImageTk.PhotoImage(off_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "pencil.png")
-edit_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "pencil.png")
+edit_button_image = Image.open(icon_image_path)
 edit_button_image.thumbnail((50, 50))  # Resize for preview
 edit_button_image_tk = ImageTk.PhotoImage(edit_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "off-button.png")
-create_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "off-button.png")
+create_button_image = Image.open(icon_image_path)
 create_button_image.thumbnail((50, 50))  # Resize for preview
 create_button_image_tk = ImageTk.PhotoImage(create_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "expand.png")
-expand_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "expand.png")
+expand_button_image = Image.open(icon_image_path)
 expand_button_image.thumbnail((50, 50))  # Resize for preview
 expand_button_image_tk = ImageTk.PhotoImage(expand_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "photo-camera.png")
-camera_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "photo-camera.png")
+camera_button_image = Image.open(icon_image_path)
 camera_button_image.thumbnail((50, 50))  # Resize for preview
 camera_button_image_tk = ImageTk.PhotoImage(camera_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "fast-forward.png")
-forward_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "fast-forward.png")
+forward_button_image = Image.open(icon_image_path)
 forward_button_image.thumbnail((50, 50))  # Resize for preview
 forward_button_image_tk = ImageTk.PhotoImage(forward_button_image) # you have to convert into photoimage to display images in tkinter
 
-image_path = os.path.join(script_dir, "Assets", "backward.png")
-backward_button_image = Image.open(image_path)
+icon_image_path = os.path.join(script_dir, "Assets", "backward.png")
+backward_button_image = Image.open(icon_image_path)
 backward_button_image.thumbnail((50, 50))  # Resize for preview
 backward_button_image_tk = ImageTk.PhotoImage(backward_button_image) # you have to convert into photoimage to display images in tkinter
 
