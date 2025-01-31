@@ -7,9 +7,7 @@ from database_handling import *
 from tkinter import filedialog
 from PIL import Image, ImageTk
 from validate_email_address import validate_email
-print('bye')
 from reminders import send_verification_email, verify_user_email, check_reminders
-print('hi')
 import customtkinter as ctk
 from tkcalendar import Calendar
 import os
