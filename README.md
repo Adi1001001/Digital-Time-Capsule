@@ -64,6 +64,7 @@ sudo pacman -S python python-pip
 
 First, ensure you have git.
 Second, ensure that you are in the correct directory/folder that you want to install the app in.
+Third, ensure that you are in the correct directory/folder that you want to install the app in.
 Third, download the project files from GitHub.
 
 ### Windows (Command Prompt / PowerShell)
@@ -172,6 +173,7 @@ If using **Task Scheduler (Windows) or Cron (Linux/macOS)** for automatic startu
 ## 🎉 You're All Set!
 
 Now your Digital Time Capsule should work seamlessly. Enjoy! 🚀
+In order to use it, run the digital_time_capsule.py script.
 In order to use it, run the digital_time_capsule.py script.
 
 If you have any errors or improvements or bugs I have to fix, please email digitaltimecapsule0@gmail.com. This will help me a ton so that I can improve this app.
