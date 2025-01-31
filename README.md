@@ -1,4 +1,3 @@
-please go to this file and look at code view. Thanks
 # Digital Time Capsule - Summary
 
 A Python application that allows users to store memories, set reminders, and receive notifications via email. It includes:
