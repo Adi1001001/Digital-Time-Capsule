@@ -1,7 +1,7 @@
 import sqlite3
 
 # below is only used if you have made an error in your database
-# conn = sqlite3.connect('DigitalTimeCapsule\\employee.db')
+# conn = sqlite3.connect('employee.db')
 # c = conn.cursor()
 # c.execute("DROP TABLE IF EXISTS memories")
 # c.execute("DROP TABLE IF EXISTS reminders")
@@ -11,7 +11,7 @@ import sqlite3
 # conn.close()
 
 def insert_memory(memory, year, month, day, hour, image_path = None, reminder_day = None, reminder_month = None, reminder_year = None, reminder_hour = None):
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
 
     c = conn.cursor()
     # creating the database
@@ -90,7 +90,7 @@ def insert_memory(memory, year, month, day, hour, image_path = None, reminder_da
     return error
 
 def insert_edited_memory(id, memory, image_path = None, reminder_day = None, reminder_month = None, reminder_year = None, reminder_hour = None):
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     try:
@@ -118,7 +118,7 @@ def insert_edited_memory(id, memory, image_path = None, reminder_day = None, rem
     return error
 
 def get_memories():
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     # Fetch the most recent entries
@@ -134,7 +134,7 @@ def get_memories():
     conn.close()
 
 def delete_memory(id):
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     c.execute(f"DELETE FROM memories WHERE id = {id}")
@@ -148,7 +148,7 @@ def delete_memory(id):
     conn.close()
 
 def access_memory(id):
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     c.execute(f"SELECT * FROM memories WHERE id = {id}")
@@ -159,7 +159,7 @@ def access_memory(id):
     conn.close()
 
 def save_email(email):
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     c.execute("CREATE TABLE IF NOT EXISTS email (email text)")
@@ -173,7 +173,7 @@ def save_email(email):
     conn.close()
 
 def get_email():
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     try:
@@ -187,7 +187,7 @@ def get_email():
     conn.close()
 
 def see_reminders():
-    connection = sqlite3.connect('DigitalTimeCapsule\\employee.db')  # Replace with your database name
+    connection = sqlite3.connect('employee.db')  # Replace with your database name
     cursor = connection.cursor()
 
     # Execute the query to retrieve all rows from the table
@@ -201,7 +201,7 @@ def see_reminders():
     connection.close()
 
 def check_opening():
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     c.execute("SELECT * FROM opening")
@@ -209,7 +209,7 @@ def check_opening():
     # return c.fetchall()
 
 def opening(state = None):
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db') # connecting to the database file
+    conn = sqlite3.connect('employee.db') # connecting to the database file
     c = conn.cursor()
 
     c.execute("""CREATE TABLE IF NOT EXISTS opening (
