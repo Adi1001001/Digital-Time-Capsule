@@ -73,7 +73,7 @@ git clone https://github.com/Adi1001001/Digital-Time-Capsule.git
 ```
 
 ```sh
-cd DigitalTimeCapsule
+cd Digital-Time-Capsule
 ```
 
 ### macOS & Linux (Terminal)
@@ -82,7 +82,7 @@ cd DigitalTimeCapsule
 git clone https://github.com/Adi1001001/Digital-Time-Capsule.git
 ```
 ```sh
-cd DigitalTimeCapsule
+cd Digital-Time-Capsule
 ```
 
 ---
