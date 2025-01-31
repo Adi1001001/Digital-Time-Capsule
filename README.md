@@ -63,12 +63,13 @@ sudo pacman -S python python-pip
 ## 👥 Step 2: Clone the Repository
 
 First, ensure you have git.
-Second, download the project files from GitHub.
+Second, ensure that you are in the correct directory/folder that you want to install the app in.
+Third, download the project files from GitHub.
 
 ### Windows (Command Prompt / PowerShell)
 
 ```sh
-git clone https://github.com/Adi1001001/DigitalTimeCapsule.git
+git clone https://github.com/Adi1001001/Digital-Time-Capsule.git
 ```
 
 ```sh
@@ -78,7 +79,7 @@ cd DigitalTimeCapsule
 ### macOS & Linux (Terminal)
 
 ```sh
-git clone https://github.com/Adi1001001/DigitalTimeCapsule.git
+git clone https://github.com/Adi1001001/Digital-Time-Capsule.git
 ```
 ```sh
 cd DigitalTimeCapsule
