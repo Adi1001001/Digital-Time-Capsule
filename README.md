@@ -108,13 +108,13 @@ pip install pystray pillow schedule smtplib sqlite3
 ### Windows
 
 ```sh
-python DigitalTimeCapsule/main.py
+python digital_time_capsule.py
 ```
 
 ### macOS/Linux
 
 ```sh
-python3 DigitalTimeCapsule/main.py
+python3 digital_time_capsule.py
 ```
 
 If using **Task Scheduler (Windows) or Cron (Linux/macOS)** for automatic startup, see **Step 5**.
