@@ -297,7 +297,7 @@ def expand_table_entry(memory_id):
     Creates a pop-up overlay to display detailed memory information based on the given memory ID.
     """
     # Connect to the SQLite database
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db')
+    conn = sqlite3.connect('employee.db')
     c = conn.cursor()
 
     # Fetch memory details by ID
@@ -926,7 +926,7 @@ current_email_label.pack(side='left', padx=10, pady = 10)
 change_email_button.pack(side='right', padx=10, pady = 10)
 
 def apply_memory(reminder):
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db')
+    conn = sqlite3.connect('employee.db')
     c = conn.cursor()
     c.execute("SELECT * FROM memories WHERE id = ?", (reminder))
     memory = c.fetchone()
@@ -1022,7 +1022,7 @@ def reminder_window():
     global title_label, reminder_index, reminders
     reminder_frame.pack()
 
-    conn = sqlite3.connect('DigitalTimeCapsule\\employee.db')
+    conn = sqlite3.connect('employee.db')
     c = conn.cursor()
 
     c.execute("SELECT id FROM reminders WHERE sent = 1")
