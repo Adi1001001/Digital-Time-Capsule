@@ -3,9 +3,12 @@
 A Python application that allows users to store memories, set reminders, and receive notifications via email. It includes:
 
 - A graphical user interface (GUI) built with Tkinter and CustomTkinter.
-- SQLite database for storing memories and reminders.
+- SQLite database for storing memories, reminders and emails.
 - A system tray application for background notifications.
 - Automatic task scheduling using Task Scheduler (Windows) or Crontab (Linux/Mac).
+- An interface to add up to 4 images by saving their raw path.
+- 3 different aesthetic screens
+- An overlay view to view your memories in an appealing way.
 
 Quick word: Pin the app to start or taskbar for easy access.
 
